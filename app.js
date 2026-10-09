@@ -4,7 +4,7 @@ var userGuess = Number(prompt("Guess Any Number Between 1 to 10!"));
 
 
 
-else if (userGuess === secretnumber) {
+ if (userGuess === secretnumber) {
     alert("Bingo! Correct answer");
     document.write("<h3>Congratulations! You won!</h3>");
     document.write("Secret Number: " + secretnumber + "<br>");
